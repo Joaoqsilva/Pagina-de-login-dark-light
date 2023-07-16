@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>PAGINA DE LOGIN</title>
+</head>
+<body>
+
+    <main id="container">
+        <form id="login_form">
+            <div id="form_header">
+                <h1>Login</h1>
+                <i id="mode_icon" class="fa-solid fa-moon"></i>
+            </div>
+
+            <div id="social_midia"> 
+                <a href="#">
+                    <img src="./assets/imgs/google.png" alt="google logo">
+                </a>
+
+                <a href="#">
+                    <img src="./assets/imgs/facebook.png" alt="facebook logo">
+                </a>
+
+                <a href="#">
+                    <img src="./assets/imgs/github.png" alt="github logo">
+                </a>
+            </div>
+
+
+
+            <div class="input-box" id="inputs">
+                <label for="name">
+                    name
+                    <div class="input-fild">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" id="name" name="name">
+                    </div>
+                </label>
+
+                <label for="email">
+                    E-mail
+                    <div class="input-fild">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" id="email" name="email">
+                    </div>
+                </label>
+
+                <label for="password">
+                    Password
+                    <div class="input-fild">
+                        <i class="fa-solid fa-key"></i>
+                        <input type="password" id="password" name="password">
+                    </div>
+                </label>
+
+                <div id="forgot_password">
+                    <a href="#">
+                        Forgot your password?
+                    </a>
+                </div>
+            </div>
+
+            <button type="submit" id="login_button">
+                Login
+            </button>
+        </form>
+    </main>
+
+
+    <script src="./assets/js/Javas.js"></script>
+</body>
+</html>
